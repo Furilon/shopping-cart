@@ -3,7 +3,7 @@ import CartItems from './cartItems'
 const Cart = (props) => {
     return (
         <>
-            {props.numOfItems === 0 ? (
+            {props.numOfItems !== 0 ? (
                 <div>
                     <div id="cart">
                         <CartItems

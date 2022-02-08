@@ -10,7 +10,6 @@ import '../assets/styles/style.css'
 function App() {
     const [numOfItems, setNumOfItems] = useState(0)
     const [totalPrice, setTotalPrice] = useState(0)
-    // Keep a list of the flowers in the cart
     const [cartItems, setCartItems] = useState([])
 
     const onClick = (e) => {
@@ -69,7 +68,7 @@ function App() {
 
         const obj = cartItems
             .map((item) => item.id)
-            .indexOf(e.target.parentNode.parentNode.id)
+            .lastIndexOf(e.target.parentNode.parentNode.id)
 
         console.log(obj)
         setCartItems((prevItems) => [
