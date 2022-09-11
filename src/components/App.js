@@ -66,14 +66,14 @@ function App() {
             ) / 100
         )
 
-        const obj = cartItems
+        const objIndex = cartItems
             .map((item) => item.id)
             .lastIndexOf(e.target.parentNode.parentNode.id)
 
-        console.log(obj)
+        console.log(objIndex)
         setCartItems((prevItems) => [
-            ...prevItems.slice(0, obj),
-            ...prevItems.slice(obj + 1),
+            ...prevItems.slice(0, objIndex),
+            ...prevItems.slice(objIndex + 1),
         ])
     }
 
