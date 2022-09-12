@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.09c0e455.css",
-    "main.js": "/static/js/main.d0d34d52.js",
-    "static/media/flower4.png": "/static/media/flower4.872a34ef7c5b9ed5fc94.png",
-    "index.html": "/index.html",
-    "main.09c0e455.css.map": "/static/css/main.09c0e455.css.map",
-    "main.d0d34d52.js.map": "/static/js/main.d0d34d52.js.map"
+    "main.css": "/Furilon/shopping-cart/tree/gh-pages/static/css/main.09c0e455.css",
+    "main.js": "/Furilon/shopping-cart/tree/gh-pages/static/js/main.0aa950b0.js",
+    "static/media/flower4.png": "/Furilon/shopping-cart/tree/gh-pages/static/media/flower4.872a34ef7c5b9ed5fc94.png",
+    "index.html": "/Furilon/shopping-cart/tree/gh-pages/index.html",
+    "main.09c0e455.css.map": "/Furilon/shopping-cart/tree/gh-pages/static/css/main.09c0e455.css.map",
+    "main.0aa950b0.js.map": "/Furilon/shopping-cart/tree/gh-pages/static/js/main.0aa950b0.js.map"
   },
   "entrypoints": [
     "static/css/main.09c0e455.css",
-    "static/js/main.d0d34d52.js"
+    "static/js/main.0aa950b0.js"
   ]
 }
