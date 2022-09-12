@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Furilon/to-do-app/static/css/main.09c0e455.css",
-    "main.js": "/Furilon/to-do-app/static/js/main.80f529ad.js",
-    "static/media/flower4.png": "/Furilon/to-do-app/static/media/flower4.872a34ef7c5b9ed5fc94.png",
-    "index.html": "/Furilon/to-do-app/index.html",
-    "main.09c0e455.css.map": "/Furilon/to-do-app/static/css/main.09c0e455.css.map",
-    "main.80f529ad.js.map": "/Furilon/to-do-app/static/js/main.80f529ad.js.map"
+    "main.css": "/static/css/main.09c0e455.css",
+    "main.js": "/static/js/main.d0d34d52.js",
+    "static/media/flower4.png": "/static/media/flower4.872a34ef7c5b9ed5fc94.png",
+    "index.html": "/index.html",
+    "main.09c0e455.css.map": "/static/css/main.09c0e455.css.map",
+    "main.d0d34d52.js.map": "/static/js/main.d0d34d52.js.map"
   },
   "entrypoints": [
     "static/css/main.09c0e455.css",
-    "static/js/main.80f529ad.js"
+    "static/js/main.d0d34d52.js"
   ]
 }
