@@ -1,10 +1,10 @@
-import CartItems from './cartItems'
+import CartItems from './cartItems';
 
 const Cart = (props) => {
     return (
         <>
             {props.numOfItems !== 0 ? (
-                <div>
+                <div id="cartWrapper">
                     <div id="cart">
                         <CartItems
                             items={props.items}
@@ -21,7 +21,7 @@ const Cart = (props) => {
                 </div>
             )}
         </>
-    )
-}
+    );
+};
 
-export default Cart
+export default Cart;
