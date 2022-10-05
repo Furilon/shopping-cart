@@ -5,7 +5,7 @@ const Header = (props) => {
         <header>
             <nav>
                 <ul>
-                    <Link to="/shopping-cart">
+                    <Link to="/">
                         <li>Garden Today</li>
                     </Link>
                     <Link to="/shop">
