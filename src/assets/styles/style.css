@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    background-image: url("../background.jpeg");
+    background-position: center;
 }
 
 #root > div {
@@ -16,11 +18,16 @@ ul {
     padding-left: 0;
 }
 
+ul a {
+    min-width: 100px;
+}
+
 a, button {
     cursor: pointer;
     border: 2px solid green;
     color: green;
     text-decoration: none;
+    text-align: center;
     font-weight: bold;
     padding: 5px 8px;
     border-radius: 10px;
