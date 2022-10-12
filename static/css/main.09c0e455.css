@@ -1,2 +1,0 @@
-ul{display:flex;justify-content:space-around;list-style:none}#footer,#shop{display:flex;justify-content:center}#shop{flex-wrap:wrap}.item{align-items:center;border:1px solid #fff;flex-direction:column;margin:20px 15px;padding:3px}#cart,.item{display:flex}#cart{flex-wrap:wrap;justify-content:center}.cartItem{border:1px solid #fff;flex-direction:column;margin:20px 15px;padding:3px}.cartItem,.cartItem div{align-items:center;display:flex}.cartItem div{justify-content:space-around}.cartItem div button{margin:0 20px;width:30px}
-/*# sourceMappingURL=main.09c0e455.css.map*/
