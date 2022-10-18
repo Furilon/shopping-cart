@@ -10,7 +10,7 @@ const Home = () => {
                 asperiores modi laudantium aut dolores! Eaque, aliquam quae
                 eveniet sit laborum nihil quibusdam quos numquam laudantium.
             </p>
-            <Link to="/shop">
+            <Link to="/shopping-cart/shop">
                 <span>Shop</span>
             </Link>
         </div>

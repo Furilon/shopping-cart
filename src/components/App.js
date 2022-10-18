@@ -82,10 +82,13 @@ function App() {
             <BrowserRouter>
                 <Header numOfItems={numOfItems} />
                 <Routes>
-                    <Route path="/" index element={<Home />} />
-                    <Route path="/shop" element={<Shop onClick={onClick} />} />
+                    <Route path="/shopping-cart" index element={<Home />} />
                     <Route
-                        path="/cart"
+                        path="/shopping-cart/shop"
+                        element={<Shop onClick={onClick} />}
+                    />
+                    <Route
+                        path="/shopping-cart/cart"
                         element={
                             <Cart
                                 items={cartItems}

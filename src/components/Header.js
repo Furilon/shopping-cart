@@ -5,13 +5,13 @@ const Header = (props) => {
         <header>
             <nav>
                 <ul>
-                    <Link to="/">
+                    <Link to="/shopping-cart">
                         <li>Homepage</li>
                     </Link>
-                    <Link to="/shop">
+                    <Link to="/shopping-cart/shop">
                         <li>Shop</li>
                     </Link>
-                    <Link to="/cart">
+                    <Link to="/shopping-cart/cart">
                         {props.numOfItems > 0 ? (
                             <li>Cart ({props.numOfItems})</li>
                         ) : (
